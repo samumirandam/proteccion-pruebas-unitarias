@@ -1,7 +1,7 @@
 {
-  "name": "proteccion-imprimir-imagen",
+  "name": "proteccion-pruebas-unitarias",
   "version": "1.0.0",
-  "description": "Proyecto para imprimir imagenes en hojas A4",
+  "description": "Proyecto para practicar pruebas unitarias",
   "main": "webpack.config.js",
   "dependencies": {},
   "devDependencies": {

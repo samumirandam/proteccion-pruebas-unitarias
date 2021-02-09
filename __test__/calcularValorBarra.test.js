@@ -1,9 +1,8 @@
-//import de las funciones de Calcular valor de la barra
 import calcularValorBarra from "../src/Utils/calcularValorBarra";
 
 describe("Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra", () => {
   test("Que el método muestre un error cuando el porcentaje sea negativo", () => {
-      let valorMaximo = 200;
+    let valorMaximo = 200;
     let porcentaje = -50;
     let valorBarra = calcularValorBarra(valorMaximo, porcentaje);
     expect(valorBarra).toEqual("Error");
