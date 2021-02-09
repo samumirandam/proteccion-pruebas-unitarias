@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="D:\Documentos\Protección\Repositorios\proteccion-pruebas-unitarias\__test__\calcularColorBarra.test.js">
-    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método muestre un error cuando el porcentaje sea negativo" duration="2"/>
-    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método mueste verde RGB(0,255,0) cuando el porcentaje sea 0" duration="0"/>
-    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método muestre un color entre rojo y verde deacuerdo con el porcentaje (Porcentaje = 50 -&gt; RGB(127,128,0))" duration="1"/>
-    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método mueste rojo RGB(255,0,0) cuando el porncetaje sea 100" duration="0"/>
-    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método muestre una alerta cuando el porcentaje sea mayor a 100" duration="1"/>
-  </file>
   <file path="D:\Documentos\Protección\Repositorios\proteccion-pruebas-unitarias\__test__\calcularValorBarra.test.js">
     <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre un error cuando el porcentaje sea negativo" duration="2"/>
     <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre 0 cuando el porcentaje sea 0" duration="1"/>
@@ -15,5 +8,15 @@
     <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre una alerta cuando el porcentaje sea mayor a 100" duration="0"/>
     <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre error cuando el valor maximo sea negativo" duration="0"/>
     <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre error cuando el valor maximo sea 0" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre Error no Integer cuando el porcentaje sea una letra" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre una Error no Integer cuando el valor maximo sea una letra" duration="1"/>
+  </file>
+  <file path="D:\Documentos\Protección\Repositorios\proteccion-pruebas-unitarias\__test__\calcularColorBarra.test.js">
+    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método muestre un error cuando el porcentaje sea negativo" duration="2"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método mueste verde RGB(0,255,0) cuando el porcentaje sea 0" duration="1"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método muestre un color entre rojo y verde deacuerdo con el porcentaje (Porcentaje = 50 -&gt; RGB(127,128,0))" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método mueste rojo RGB(255,0,0) cuando el porncetaje sea 100" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método muestre una alerta cuando el porcentaje sea mayor a 100" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Color de la barra - Método calcularColorBarra Que el método muestre una Error no Integer cuando el porcentaje sea una letra" duration="0"/>
   </file>
 </testExecutions>

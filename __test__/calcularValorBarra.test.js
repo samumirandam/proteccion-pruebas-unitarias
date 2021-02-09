@@ -49,4 +49,18 @@ describe("Pruebas unitarias de la función de Calcular Valor de la barra - Méto
     let valorBarra = calcularValorBarra(valorMaximo, porcentaje);
     expect(valorBarra).toEqual("Error");
   });
+
+  test("Que el método muestre Error no Integer cuando el porcentaje sea una letra", () => {
+    let valorMaximo = 200;
+    let porcentaje = "Hello!";
+    let valorBarra = calcularValorBarra(valorMaximo, porcentaje);
+    expect(valorBarra).toEqual("Error no Integer");
+  });
+
+  test("Que el método muestre una Error no Integer cuando el valor maximo sea una letra", () => {
+    let valorMaximo = "Hello!";
+    let porcentaje = 50;
+    let valorBarra = calcularValorBarra(valorMaximo, porcentaje);
+    expect(valorBarra).toEqual("Error no Integer");
+  });
 });

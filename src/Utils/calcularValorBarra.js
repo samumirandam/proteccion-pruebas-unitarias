@@ -1,5 +1,9 @@
-
 const calcularValorBarra = (valorMaximo, porcentaje) => {
+  
+  if (!Number.isInteger(valorMaximo) || !Number.isInteger(porcentaje)) {
+    return "Error no Integer";
+  }
+
   if (valorMaximo <= 0) {
     return "Error";
   }
