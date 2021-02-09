@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\Documentos\Protección\Repositorios\proteccion-pruebas-unitarias\__test__\calcularValorBarra.test.js">
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre un error cuando el porcentaje sea negativo" duration="3"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre 0 cuando el porcentaje sea 0" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre el valor que es" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre el valor maximo el porcentaje sea 100" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre una alerta cuando el porcentaje sea mayor a 100" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre error cuando el valor maximo sea negativo" duration="0"/>
+    <testCase name="Pruebas unitarias de la función de Calcular Valor de la barra - Método calcularValorBarra Que el método muestre error cuando el valor maximo sea 0" duration="1"/>
+  </file>
+</testExecutions>
