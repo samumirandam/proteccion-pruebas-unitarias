@@ -50,17 +50,17 @@ describe("Pruebas unitarias de la función de Calcular Valor de la barra - Méto
     expect(valorBarra).toEqual("Error");
   });
 
-  test("Que el método muestre Error no Integer cuando el porcentaje sea una letra", () => {
+  test("Que el método muestre Error no number cuando el porcentaje sea una letra", () => {
     let valorMaximo = 200;
     let porcentaje = "Hello!";
     let valorBarra = calcularValorBarra(valorMaximo, porcentaje);
-    expect(valorBarra).toEqual("Error no Integer");
-  });
-
-  test("Que el método muestre una Error no Integer cuando el valor maximo sea una letra", () => {
+    expect(valorBarra).toEqual("Error no number");
+  })
+  
+  test("Que el método muestre una Error no number cuando el valor maximo sea una letra", () => {
     let valorMaximo = "Hello!";
     let porcentaje = 50;
     let valorBarra = calcularValorBarra(valorMaximo, porcentaje);
-    expect(valorBarra).toEqual("Error no Integer");
+    expect(valorBarra).toEqual("Error no number");
   });
 });

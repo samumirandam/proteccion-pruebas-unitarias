@@ -10,12 +10,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 const calcularDatosBarra = () => {
   let valorMaximo = 200;
   let porcentaje = prompt("Ingresa el porcentaje, por favor.");
-  let colorBarra = calcularColorBarra(porcentaje);
-  let valorBarra = calcularValorBarra(valorMaximo, porcentaje);
-
-  console.log(
-    `La barra tiene una longtud de ${valorBarra}px y es de color ${colorBarra}`
-  );
+  let colorBarra = calcularColorBarra(Number(porcentaje));
+  let valorBarra = calcularValorBarra(valorMaximo, Number(porcentaje));
+ 
   let campo = document.getElementById("resultado");
   campo.textContent = `La barra tiene una longtud de ${valorBarra}px y es de color ${colorBarra}`;
 };

@@ -30,9 +30,9 @@ describe("Pruebas unitarias de la función de Calcular Color de la barra - Méto
     expect(colorBarra).toEqual("Alert");
   });
 
-  test("Que el método muestre una Error no Integer cuando el porcentaje sea una letra", () => {
+  test("Que el método muestre una Error no number cuando el porcentaje sea una letra", () => {
     let porcentaje = "Hello!";
     let colorBarra = calcularColorBarra(porcentaje);
-    expect(colorBarra).toEqual("Error no Integer");
+    expect(colorBarra).toEqual("Error no number");
   });
 });

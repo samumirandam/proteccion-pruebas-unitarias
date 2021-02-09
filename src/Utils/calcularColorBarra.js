@@ -1,8 +1,8 @@
 const calcularColorBarra = (porcentaje) => {
   let maximoColor = 255;
 
-  if (!Number.isInteger(porcentaje)) {
-    return "Error no Integer";
+  if (typeof porcentaje != 'number') {
+    return "Error no number";
   }
 
   if (porcentaje < 0) {
