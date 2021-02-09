@@ -1,4 +1,3 @@
-import { ids } from "webpack";
 
 const calcularValorBarra = (valorMaximo, porcentaje) => {
   if (valorMaximo <= 0) {
